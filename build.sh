@@ -13,8 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install onedrive ripgrep java-17-openjdk kmail kalendar tlp ansible
+rpm-ostree install nextcloud-client ripgrep java-17-openjdk kalendar tlp ansible
 
 #### Example for enabling a System Unit File
-
-# systemctl enable podman.socket
+# systemctl enable tlp.service
