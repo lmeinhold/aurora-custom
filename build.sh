@@ -13,7 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install nextcloud-client ripgrep java-21-openjdk tlp ansible
+rpm-ostree install nextcloud-client ripgrep java-21-openjdk tlp ansible emacs-nw micro neovim
 
 #### Example for enabling a System Unit File
 # systemctl enable tlp.service
